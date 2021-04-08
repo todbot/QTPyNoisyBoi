@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -10773,23 +10773,23 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
 <part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL074" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="50TR"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="200"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="200"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10798,38 +10798,41 @@ DIN A3, landscape with location and doc. field</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P-3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="200"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" package3d_urn="urn:adsk.eagle:package:38441/1" value="0.5A/40V/420mV"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" package3d_urn="urn:adsk.eagle:package:38441/1" value="0.5A/40V/420mV"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="R144" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="R144" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D3" library="halcyonmod_DiscreteSemi" deviceset="DIODE" device="BAS16" value="250mA/100V"/>
 <part name="D4" library="halcyonmod_DiscreteSemi" deviceset="DIODE" device="BAS16" value="250mA/100V"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
-<part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF"/>
+<part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" value="PTH-6.0MM"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="QTPyNoisyBoi"/>
+<part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" value="PTH-6.0MM"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="83.82" y="43.18" size="1.778" layer="97">gate_in</text>
 </plain>
 <instances>
 <instance part="U1" gate="U$1" x="63.5" y="53.34" smashed="yes">
@@ -10981,49 +10984,49 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND12" gate="1" x="195.58" y="124.46" smashed="yes" rot="R270">
 <attribute name="VALUE" x="193.04" y="127" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC2" gate="P" x="66.04" y="-20.32" smashed="yes"/>
+<instance part="IC2" gate="P" x="106.68" y="-58.42" smashed="yes"/>
 <instance part="P+3" gate="1" x="96.52" y="139.7" smashed="yes">
 <attribute name="VALUE" x="93.98" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+4" gate="1" x="66.04" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="63.5" y="-15.24" size="1.778" layer="96" rot="R90"/>
+<instance part="P+4" gate="1" x="106.68" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="104.14" y="-53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P-1" gate="1" x="66.04" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="63.5" y="-33.02" size="1.778" layer="96" rot="R90"/>
+<instance part="P-1" gate="1" x="106.68" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="104.14" y="-71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P-2" gate="1" x="96.52" y="99.06" smashed="yes">
 <attribute name="VALUE" x="93.98" y="96.52" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C6" gate="G$1" x="73.66" y="-15.24" smashed="yes">
-<attribute name="NAME" x="75.184" y="-14.859" size="1.778" layer="95"/>
-<attribute name="VALUE" x="75.184" y="-19.939" size="1.778" layer="96"/>
+<instance part="C6" gate="G$1" x="114.3" y="-53.34" smashed="yes">
+<attribute name="NAME" x="115.824" y="-52.959" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.824" y="-58.039" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="73.66" y="-22.86" smashed="yes">
-<attribute name="NAME" x="75.184" y="-22.479" size="1.778" layer="95"/>
-<attribute name="VALUE" x="75.184" y="-27.559" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="114.3" y="-60.96" smashed="yes">
+<attribute name="NAME" x="115.824" y="-60.579" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.824" y="-65.659" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="78.74" y="-20.32" smashed="yes" rot="R90">
-<attribute name="VALUE" x="81.28" y="-22.86" size="1.778" layer="96" rot="R90"/>
+<instance part="GND13" gate="1" x="119.38" y="-58.42" smashed="yes" rot="R90">
+<attribute name="VALUE" x="121.92" y="-60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+5" gate="1" x="73.66" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="71.12" y="-15.24" size="1.778" layer="96" rot="R90"/>
+<instance part="P+5" gate="1" x="114.3" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="111.76" y="-53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P-3" gate="1" x="73.66" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="71.12" y="-33.02" size="1.778" layer="96" rot="R90"/>
+<instance part="P-3" gate="1" x="114.3" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="111.76" y="-71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R10" gate="G$1" x="71.12" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.6214" y="13.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="74.422" y="13.97" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="71.12" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.6214" y="-29.21" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.422" y="-29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="71.12" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.6214" y="3.81" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="74.422" y="3.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="71.12" y="-35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.6214" y="-39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.422" y="-39.37" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND14" gate="1" x="71.12" y="0" smashed="yes">
-<attribute name="VALUE" x="68.58" y="-2.54" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="71.12" y="-43.18" smashed="yes">
+<attribute name="VALUE" x="68.58" y="-45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="71.12" y="27.94" smashed="yes">
-<attribute name="VALUE" x="68.58" y="22.86" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V5" gate="G$1" x="71.12" y="-15.24" smashed="yes">
+<attribute name="VALUE" x="68.58" y="-20.32" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C8" gate="G$1" x="137.16" y="-2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="134.366" y="-1.397" size="1.778" layer="95"/>
@@ -11051,9 +11054,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="173.228" y="132.08" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="177.292" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="C9" gate="G$1" x="63.5" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.976" y="4.699" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="61.976" y="9.779" size="1.778" layer="96" rot="R180"/>
+<instance part="C9" gate="G$1" x="63.5" y="-38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="61.976" y="-38.481" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="61.976" y="-33.401" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R144" gate="G$1" x="187.96" y="129.54" smashed="yes">
 <attribute name="NAME" x="184.15" y="131.0386" size="1.778" layer="95"/>
@@ -11078,12 +11081,12 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="136.906" y="35.687" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="139.954" y="29.845" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="G$1" x="7.62" y="0" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.096" y="0" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="8.128" y="0" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="S1" gate="G$1" x="25.4" y="0" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.876" y="0" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.448" y="0" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND15" gate="1" x="7.62" y="-7.62" smashed="yes">
-<attribute name="VALUE" x="5.08" y="-10.16" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="25.4" y="-7.62" smashed="yes">
+<attribute name="VALUE" x="22.86" y="-10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="C12" gate="G$1" x="137.16" y="-17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="136.906" y="-15.113" size="1.778" layer="95" rot="R180"/>
@@ -11097,6 +11100,13 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DRAWING_NAME" x="262.89" y="-71.12" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="262.89" y="-76.2" size="2.286" layer="94"/>
 <attribute name="SHEET" x="276.225" y="-81.28" size="2.54" layer="94"/>
+</instance>
+<instance part="S2" gate="G$1" x="25.4" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.876" y="-25.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.448" y="-25.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND16" gate="1" x="25.4" y="-33.02" smashed="yes">
+<attribute name="VALUE" x="22.86" y="-35.56" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11160,15 +11170,15 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="73.66" y1="-20.32" x2="76.2" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="73.66" y="-20.32"/>
+<wire x1="114.3" y1="-58.42" x2="116.84" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="114.3" y="-58.42"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="2.54" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
-<junction x="71.12" y="2.54"/>
+<wire x1="63.5" y1="-40.64" x2="71.12" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="71.12" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -11182,6 +11192,10 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11205,7 +11219,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<wire x1="71.12" y1="25.4" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-17.78" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
@@ -11407,12 +11421,15 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
-<junction x="71.12" y="12.7"/>
-<label x="76.2" y="12.7" size="1.778" layer="95"/>
-<wire x1="71.12" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-30.48" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="71.12" y="-30.48"/>
+<label x="76.2" y="-30.48" size="1.778" layer="95"/>
+<wire x1="71.12" y1="-30.48" x2="63.5" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="12.7" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-30.48" x2="63.5" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="C" pin="+IN"/>
+<wire x1="132.08" y1="-30.48" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
+<label x="119.38" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="+IN"/>
@@ -11423,10 +11440,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="IC2" gate="B" pin="+IN"/>
 <wire x1="132.08" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 <label x="119.38" y="17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="C" pin="+IN"/>
-<wire x1="132.08" y1="-30.48" x2="119.38" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -11454,8 +11467,8 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="175.26" y1="129.54" x2="175.26" y2="127" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="129.54" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
 <junction x="175.26" y="129.54"/>
-<wire x1="175.26" y1="129.54" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
-<label x="165.1" y="129.54" size="1.778" layer="95"/>
+<wire x1="175.26" y1="129.54" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
+<label x="154.94" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U$1" pin="RX"/>
@@ -11525,8 +11538,8 @@ DIN A3, landscape with location and doc. field</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="10.16" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="5.08" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="10.16" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="10.16" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="TX"/>
 <wire x1="45.72" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
@@ -11562,6 +11575,19 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="IC2" gate="C" pin="-IN"/>
 <wire x1="129.54" y1="-25.4" x2="132.08" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="129.54" y="-25.4"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="SCK"/>
+<wire x1="78.74" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<label x="83.82" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="-20.32" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-15.24" x2="35.56" y2="-15.24" width="0.1524" layer="91"/>
+<label x="30.48" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
