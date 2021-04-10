@@ -243,7 +243,145 @@
 <text x="-2.794" y="-0.762" size="1.27" layer="21" ratio="10">QT PY</text>
 <text x="-1.016" y="10.16" size="0.8128" layer="21" ratio="10">USB</text>
 </package>
+<package name="WS2812B" urn="urn:adsk.eagle:footprint:1731441/1" library_version="28" library_locally_modified="yes">
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.5" x2="-1.3" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="2.8" x2="-1.7" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="3.2" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<smd name="1-VDD" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="2-DOUT" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="4-DIN" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="3-GND" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
+<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+</package>
+<package name="WS2812B-NARROW" urn="urn:adsk.eagle:footprint:1731442/1" library_version="28" library_locally_modified="yes">
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.5" x2="-1.25" y2="2.85" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="2.85" x2="-1.7" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="3.3" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<smd name="1-VDD" x="2.35" y="-1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="2-DOUT" x="2.35" y="1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="4-DIN" x="-2.35" y="-1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="3-GND" x="-2.35" y="1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
+<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+</package>
+<package name="LED3535" urn="urn:adsk.eagle:footprint:1731440/1" library_version="28" library_locally_modified="yes">
+<smd name="1" x="-1.75" y="0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="1.75" y="0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-1.75" y="-0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="1.75" y="-0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-1.9" y1="1.6" x2="-1.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="1.9" x2="1.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="1.9" y1="1.9" x2="1.9" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.6" x2="-1.9" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="1.9" y1="-1.9" x2="1.9" y2="-1.6" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.4" width="0.127" layer="51"/>
+<text x="-1.905" y="2.159" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.778" y="-2.54" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="-1.905" y="1.905"/>
+<vertex x="-1.905" y="1.524"/>
+<vertex x="-1.524" y="1.524"/>
+<vertex x="-1.143" y="1.905"/>
+</polygon>
+</package>
+<package name="SK6812-SIDE" urn="urn:adsk.eagle:footprint:1731443/2" library_version="28" library_locally_modified="yes">
+<wire x1="2" y1="-0.776" x2="-1.996" y2="-0.776" width="0.127" layer="21"/>
+<wire x1="-1.996" y1="-0.776" x2="-2.05" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="0" x2="-2" y2="0.724" width="0.127" layer="21"/>
+<wire x1="-1.496" y1="0.724" x2="1.504" y2="0.724" width="0.127" layer="21"/>
+<wire x1="1.504" y1="0.724" x2="2.004" y2="0.724" width="0.127" layer="21"/>
+<wire x1="2.004" y1="0.724" x2="2.05" y2="0" width="0.127" layer="21"/>
+<wire x1="2.05" y1="0" x2="2" y2="-0.776" width="0.127" layer="21"/>
+<wire x1="-1.096" y1="0.324" x2="-1.496" y2="0.724" width="0.127" layer="21"/>
+<wire x1="-1.496" y1="0.724" x2="-2" y2="0.724" width="0.127" layer="21"/>
+<wire x1="1.104" y1="0.324" x2="-1.096" y2="0.324" width="0.127" layer="21"/>
+<wire x1="1.504" y1="0.724" x2="1.104" y2="0.324" width="0.127" layer="21"/>
+<smd name="1-VDD" x="0.25" y="-0.45" dx="0.6" dy="1" layer="1" rot="R180"/>
+<smd name="2-DOUT" x="-0.65" y="-0.45" dx="0.35" dy="1" layer="1" rot="R180"/>
+<smd name="4-DIN" x="1.25" y="-0.45" dx="0.45" dy="1" layer="1" rot="R180"/>
+<smd name="3-GND" x="-1.5" y="-0.45" dx="0.5" dy="1" layer="1" rot="R180"/>
+<text x="2.3965" y="0.8615" size="0.6096" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<circle x="1.745" y="0.508" radius="0.179603125" width="0.127" layer="21"/>
+</package>
+<package name="WS2812B-2020" urn="urn:adsk.eagle:footprint:13050901/1" library_version="28" library_locally_modified="yes">
+<smd name="P$1" x="0.92" y="-0.55" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$2" x="0.92" y="0.55" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$3" x="-0.92" y="0.55" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$4" x="-0.92" y="-0.55" dx="0.7" dy="0.7" layer="1"/>
+<wire x1="-1.4" y1="1.1" x2="-1.4" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.3" x2="1.4" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.4" y1="1.3" x2="1.4" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-1.1" x2="-1.4" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-1.3" x2="1.4" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-1.3" x2="1.4" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.127" layer="21"/>
+<circle x="1.6" y="-1.5" radius="0.2" width="0.127" layer="21"/>
+<text x="-2.5" y="1.7" size="1" layer="21" ratio="12">&gt;Name</text>
+<text x="-2.5" y="-3" size="1" layer="21" ratio="12">&gt;Value</text>
+</package>
+<package name="WS2812_THRUHOLE" urn="urn:adsk.eagle:footprint:13050904/1" library_version="28" library_locally_modified="yes">
+<pad name="DI" x="-2" y="0.3" drill="0.8"/>
+<pad name="V" x="-0.7" y="-0.4" drill="0.8"/>
+<pad name="GND" x="0.7" y="0.4" drill="0.8"/>
+<pad name="DO" x="2" y="-0.3" drill="0.8"/>
+<circle x="0" y="0" radius="3.4" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.2" width="0.127" layer="21"/>
+<text x="-2" y="-7" size="1.27" layer="21">&gt;Name</text>
+<text x="-2" y="-9" size="1.27" layer="21">&gt;Value</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="WS2812B" urn="urn:adsk.eagle:package:1731512/1" type="box" library_version="28" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="WS2812B"/>
+</packageinstances>
+</package3d>
+<package3d name="WS2812B-NARROW" urn="urn:adsk.eagle:package:1731514/1" type="box" library_version="28" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="WS2812B-NARROW"/>
+</packageinstances>
+</package3d>
+<package3d name="LED3535" urn="urn:adsk.eagle:package:1731511/2" type="model" library_version="28" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="LED3535"/>
+</packageinstances>
+</package3d>
+<package3d name="SK6812-SIDE" urn="urn:adsk.eagle:package:1731513/4" type="model" library_version="28" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="SK6812-SIDE"/>
+</packageinstances>
+</package3d>
+<package3d name="WS2812B-2020" urn="urn:adsk.eagle:package:13050907/1" type="box" library_version="28" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="WS2812B-2020"/>
+</packageinstances>
+</package3d>
+<package3d name="WS2812_THRUHOLE" urn="urn:adsk.eagle:package:13050910/1" type="box" library_version="28" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="WS2812_THRUHOLE"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="ADAFRUIT_QTPY" library_version="28" library_locally_modified="yes">
 <wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
@@ -266,6 +404,51 @@
 <pin name="5V" x="15.24" y="7.62" length="middle" rot="R180"/>
 <text x="-10.16" y="15.24" size="1.27" layer="95" ratio="10">&gt;Name</text>
 <text x="-10.16" y="-15.24" size="1.27" layer="96" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="WS2812BLED" urn="urn:adsk.eagle:symbol:1731439/1" library_version="28" library_locally_modified="yes">
+<pin name="VDD" x="5.08" y="15.24" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="DI" x="-12.7" y="-2.54" visible="pin" length="middle" direction="in"/>
+<pin name="GND" x="0" y="-10.16" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="DO" x="12.7" y="-2.54" visible="pin" length="middle" direction="out" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-6.35" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-1.27" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-4.064" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-4.064" y="8.382" size="1.27" layer="94">WS2812B</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -291,6 +474,97 @@
 <connect gate="U$1" pin="SDA" pad="SDA"/>
 <connect gate="U$1" pin="TX" pad="TX"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WS2812B" urn="urn:adsk.eagle:component:1731554/6" prefix="LED" library_version="28" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="WS2812BLED" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="5050" package="WS2812B">
+<connects>
+<connect gate="G$1" pin="DI" pad="4-DIN"/>
+<connect gate="G$1" pin="DO" pad="2-DOUT"/>
+<connect gate="G$1" pin="GND" pad="3-GND"/>
+<connect gate="G$1" pin="VDD" pad="1-VDD"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1731512/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_5050N" package="WS2812B-NARROW">
+<connects>
+<connect gate="G$1" pin="DI" pad="4-DIN"/>
+<connect gate="G$1" pin="DO" pad="2-DOUT"/>
+<connect gate="G$1" pin="GND" pad="3-GND"/>
+<connect gate="G$1" pin="VDD" pad="1-VDD"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1731514/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3535" package="LED3535">
+<connects>
+<connect gate="G$1" pin="DI" pad="1"/>
+<connect gate="G$1" pin="DO" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1731511/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SK6812-SIDE">
+<connects>
+<connect gate="G$1" pin="DI" pad="4-DIN"/>
+<connect gate="G$1" pin="DO" pad="2-DOUT"/>
+<connect gate="G$1" pin="GND" pad="3-GND"/>
+<connect gate="G$1" pin="VDD" pad="1-VDD"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1731513/4"/>
+</package3dinstances>
+<technologies>
+<technology name="4020SIDE"/>
+</technologies>
+</device>
+<device name="2020" package="WS2812B-2020">
+<connects>
+<connect gate="G$1" pin="DI" pad="P$3"/>
+<connect gate="G$1" pin="DO" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="VDD" pad="P$4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13050907/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5MM_TH" package="WS2812_THRUHOLE">
+<connects>
+<connect gate="G$1" pin="DI" pad="DI"/>
+<connect gate="G$1" pin="DO" pad="DO"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VDD" pad="V"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13050910/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10773,7 +11047,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
 <part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL074" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
@@ -10787,7 +11061,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10807,7 +11081,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10815,7 +11089,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" package3d_urn="urn:adsk.eagle:package:38441/1" value="0.5A/40V/420mV"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" package3d_urn="urn:adsk.eagle:package:38441/1" value="0.5A/40V/420mV"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="R144" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D3" library="halcyonmod_DiscreteSemi" deviceset="DIODE" device="BAS16" value="250mA/100V"/>
 <part name="D4" library="halcyonmod_DiscreteSemi" deviceset="DIODE" device="BAS16" value="250mA/100V"/>
@@ -10828,6 +11102,15 @@ DIN A3, landscape with location and doc. field</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="QTPyNoisyBoi"/>
 <part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" value="PTH-6.0MM"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="LED2" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:1731512/1"/>
+<part name="LED1" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:1731512/1"/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="LED3" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:1731512/1"/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11058,7 +11341,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="61.976" y="-38.481" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="61.976" y="-33.401" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R144" gate="G$1" x="187.96" y="129.54" smashed="yes">
+<instance part="R15" gate="G$1" x="187.96" y="129.54" smashed="yes">
 <attribute name="NAME" x="184.15" y="131.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="184.15" y="126.238" size="1.778" layer="96"/>
 </instance>
@@ -11107,6 +11390,27 @@ DIN A3, landscape with location and doc. field</description>
 </instance>
 <instance part="GND16" gate="1" x="25.4" y="-33.02" smashed="yes">
 <attribute name="VALUE" x="22.86" y="-35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="LED2" gate="G$1" x="2.54" y="-55.88" smashed="yes"/>
+<instance part="LED1" gate="G$1" x="-22.86" y="-55.88" smashed="yes"/>
+<instance part="+3V7" gate="G$1" x="7.62" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="5.08" y="-43.18" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V8" gate="G$1" x="-20.32" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="-22.86" y="-43.18" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND17" gate="1" x="2.54" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="0" y="-71.12" size="1.778" layer="96"/>
+</instance>
+<instance part="GND18" gate="1" x="-22.86" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="-25.4" y="-71.12" size="1.778" layer="96"/>
+</instance>
+<instance part="LED3" gate="G$1" x="27.94" y="-55.88" smashed="yes"/>
+<instance part="+3V9" gate="G$1" x="33.02" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="30.48" y="-43.18" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND19" gate="1" x="27.94" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="25.4" y="-71.12" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11197,6 +11501,18 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="GND"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="GND"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="GND"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -11226,6 +11542,19 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="175.26" y1="139.7" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="VDD"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="VDD"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="-17.78" y1="-40.64" x2="-20.32" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="VDD"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="A1" class="0">
 <segment>
@@ -11234,7 +11563,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="35.56" y1="78.74" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="A1"/>
 <wire x1="35.56" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
-<label x="43.18" y="58.42" size="1.778" layer="95"/>
+<label x="40.64" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -11244,7 +11573,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="35.56" y1="53.34" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="A2"/>
 <wire x1="35.56" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
-<label x="43.18" y="55.88" size="1.778" layer="95"/>
+<label x="40.64" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -11254,14 +11583,14 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="38.1" y1="27.94" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="A3"/>
 <wire x1="38.1" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
-<label x="43.18" y="53.34" size="1.778" layer="95"/>
+<label x="40.64" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="A0"/>
-<wire x1="48.26" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<label x="43.18" y="60.96" size="1.778" layer="95"/>
+<wire x1="48.26" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
+<label x="40.64" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -11463,7 +11792,7 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="175.26" y1="132.08" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R144" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="129.54" x2="175.26" y2="127" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="129.54" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
 <junction x="175.26" y="129.54"/>
@@ -11478,7 +11807,7 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R144" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="129.54" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
 </segment>
@@ -11588,6 +11917,30 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="25.4" y1="-20.32" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-15.24" x2="35.56" y2="-15.24" width="0.1524" layer="91"/>
 <label x="30.48" y="-15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="DO"/>
+<pinref part="LED2" gate="G$1" pin="DI"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="DI"/>
+<wire x1="-35.56" y1="-58.42" x2="-48.26" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-48.26" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="U$1" pin="SDA"/>
+<wire x1="48.26" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<label x="40.64" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="DI"/>
+<pinref part="LED2" gate="G$1" pin="DO"/>
 </segment>
 </net>
 </nets>
