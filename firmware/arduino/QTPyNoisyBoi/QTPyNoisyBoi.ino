@@ -22,6 +22,7 @@
 //#include "wiring_pwm.h"
 #include "analogWriteHF.h"
 #include "VoltageOut.h"
+#include "calibration.h"
 
 int outAPin = 10; // MOSI on QTPY  (TCC1)
 int outBPin = 9;  // MISO on QTPY  (TCC0)
@@ -37,15 +38,19 @@ int but1Pin = 6;   // TX on QTPY
 int but2Pin = 8;   // TX on QTPY
 
 const uint32_t pwm_freq = 11720; // 
-    
+
+VoltageOut voutA = VoltageOut(cals_a, sizeof(cals_a)/sizeof(voltage_calibration));
+VoltageOut voutB = VoltageOut(cals_b, sizeof(cals_b)/sizeof(voltage_calibration));
+VoltageOut voutC = VoltageOut(cals_c, sizeof(cals_c)/sizeof(voltage_calibration));
+
 void setup()
 {
     delay(1000);
     Serial.begin(115200);
     Serial.println("Hello from QTPyNoisyBoi!");
-    //pinMode(outAPin, OUTPUT);
-    //pinMode(outBPin, OUTPUT);
-    //pinMode(outCPin, OUTPUT);
+    pinMode(outAPin, OUTPUT);
+    pinMode(outBPin, OUTPUT);
+    pinMode(outCPin, OUTPUT);
     
     pinMode(gateInPin, INPUT_PULLDOWN);
     pinMode(knobAPin, INPUT);
@@ -55,16 +60,16 @@ void setup()
     pinMode(but2Pin, INPUT_PULLUP);
 }
 
-uint32_t value = 512;  // 10-bit number
+uint32_t dac_val = 512;  // 10-bit number
 
 void loop() {
-    //pwm(outAPin, pwm_freq, value);  // ranges 0-1023
-    //pwm(outBPin, pwm_freq, value);  // ranges 0-1023
-    analogWriteHF(outAPin, value);  // ranges 0-1023
-    analogWriteHF(outBPin, value);  // ranges 0-1023
-    analogWrite(outCPin, value);    // actually analog, 0-1023
-    //value++;
-    if( value >= 1024 ) value = 0;
+    //pwm(outAPin, pwm_freq, dac_val);  // ranges 0-1023
+    //pwm(outBPin, pwm_freq, dac_val);  // ranges 0-1023
+    analogWriteHF(outAPin, dac_val);  // ranges 0-1023
+    analogWriteHF(outBPin, dac_val);  // ranges 0-1023
+    analogWrite(outCPin, dac_val);    // actually analog, 0-1023
+    //dac_val++;
+    if( dac_val >= 1024 ) dac_val = 0;
     delay(5);
 }
 
