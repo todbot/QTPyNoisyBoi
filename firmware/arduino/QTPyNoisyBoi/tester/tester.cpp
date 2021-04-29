@@ -7,6 +7,7 @@
  */
 
 #include "VoltageOut.h"
+#include "CVMaker.h"
 
 #include "stdio.h"
 
