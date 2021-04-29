@@ -121,7 +121,7 @@ void analogWriteHF(const uint32_t pin, uint32_t value)
     // Set PORT
     if (tcNum >= TCC_INST_NUM)
     {
-        Serial.println("HERE IN 8-BIT TCx LAND");
+        //Serial.println("HERE IN 8-BIT TCx LAND");
       // -- Configure TC
       Tc *TCx = (Tc*) GetTC(pinDesc.ulPWMChannel);
       // Disable TCx
@@ -142,7 +142,7 @@ void analogWriteHF(const uint32_t pin, uint32_t value)
     }
     else
     {
-        Serial.println("HERE IN 16-BIT TCCx LAND");
+        //Serial.println("HERE IN 16-BIT TCCx LAND");
       // -- Configure TCC
       Tcc *TCCx = (Tcc*) GetTC(pinDesc.ulPWMChannel);
       // Disable TCCx
@@ -170,14 +170,14 @@ void analogWriteHF(const uint32_t pin, uint32_t value)
   {
     if (tcNum >= TCC_INST_NUM)
     {
-      Serial.println("HERE IN OTHER 8-BIT TCx LAND"); 
+        //Serial.println("HERE IN OTHER 8-BIT TCx LAND"); 
       Tc *TCx = (Tc*) GetTC(pinDesc.ulPWMChannel);
       TCx->COUNT8.CC[tcChannel].reg = (uint32_t) value; 
       syncTC_8(TCx);
     }
     else
     {
-      Serial.println("HERE IN OTHER 16-BIT TCCx LAND"); 
+        //Serial.println("HERE IN OTHER 16-BIT TCCx LAND"); 
       Tcc *TCCx = (Tcc*) GetTC(pinDesc.ulPWMChannel);
       TCCx->CTRLBSET.bit.LUPD = 1;
       syncTCC(TCCx);
